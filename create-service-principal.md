@@ -192,41 +192,41 @@ Now you have a service principal account, you need to grant this account access 
 
 There are couple of built-in roles in Azure, the roles can be assigned to users, groups, and services. We use **Virtual Machine Contributor** and **Network Contributor** roles for AzureCloud environment; we use **Contributor** role for AzureChinaCloud environment. Below steps use AzureCloud environment for example. While for AzureChinaCloud environment, the steps are very similar, just need to change the role name to be "Contributor".
 
-Click [**here**](https://azure.microsoft.com/en-us/documentation/articles/role-based-access-built-in-roles/) for roles more details.
+Click [**here**](https://azure.microsoft.com/en-us/documentation/articles/role-based-access-built-in-roles/) for the role info details.
 
 1. Assign Virtual Machine Contributor role
 
-```
-azure role assignment create --spn <service-principal-name> --roleName "Virtual Machine Contributor" --subscription <subscription-id>
-```
+  ```
+  azure role assignment create --spn <service-principal-name> --roleName "Virtual Machine Contributor" --subscription <subscription-id>
+  ```
 
-Example:
+  Example:
 
-```
-azure role assignment create --spn "http://BOSHAzureCPI" --roleName "Virtual Machine Contributor" --subscription 87654321-1234-5678-1234-678912345678
-```
+  ```
+  azure role assignment create --spn "http://BOSHAzureCPI" --roleName "Virtual Machine Contributor" --subscription 87654321-1234-5678-1234-678912345678
+  ```
 
-You can verify the assignment with the following command:
+  You can verify the assignment with the following command:
 
-```
-azure role assignment list --spn <service-principal-name>
-```
+  ```
+  azure role assignment list --spn <service-principal-name>
+  ```
 
-Sample Output:
+  Sample Output:
 
-```
-data:    AD Object:
-data:      ID:              7a3029f9-1b74-443e-8987-bed5b6f00009
-data:      Type:            ServicePrincipal
-data:      Display Name:    Service Principal for BOSH
-data:      Principal Name:
-data:    Scope:             /subscriptions/87654321-1234-5678-1234-678912345678
-data:    Role:
-data:      Name:            Virtual Machine Contributor
-data:      Permissions:
-data:        Actions:      *
-data:        NotActions:   Microsoft.Authorization/*/Write,Microsoft.Authorization/*/Delete
-```
+  ```
+  data:    AD Object:
+  data:      ID:              7a3029f9-1b74-443e-8987-bed5b6f00009
+  data:      Type:            ServicePrincipal
+  data:      Display Name:    Service Principal for BOSH
+  data:      Principal Name:
+  data:    Scope:             /subscriptions/87654321-1234-5678-1234-678912345678
+  data:    Role:
+  data:      Name:            Virtual Machine Contributor
+  data:      Permissions:
+  data:        Actions:      *
+  data:        NotActions:   Microsoft.Authorization/*/Write,Microsoft.Authorization/*/Delete
+  ```
 
 2. Assign Network Contributor role
 
