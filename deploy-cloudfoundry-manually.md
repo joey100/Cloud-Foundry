@@ -79,7 +79,7 @@ The following steps uses `single-vm-cf.yml` for an example.
   bosh upload stemcell STEMCELL-FOR-AZURE-URL
   ```
   
-  For example
+  For example:
   
   ```
   bosh upload stemcell https://bosh.io/d/stemcells/bosh-azure-hyperv-ubuntu-trusty-go_agent?v=3169
