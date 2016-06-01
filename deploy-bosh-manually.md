@@ -546,7 +546,7 @@ echo "Finish"
 
     * **REPLACE_WITH_BOSH_RELEASE_URL** and **REPLACE_WITH_BOSH_RELEASE_SHA1**(e.g., https://bosh.io/d/github.com/cloudfoundry/bosh?v=256.2 and ff2f4e16e02f66b31c595196052a809100cfd5a8)
 	
-    * **REPLACE_WITH_BOSH_AZURE_CPI_RELEASE_URL** and **REPLACE_WITH_BOSH_AZURE_CPI_RELEASE_SHA1**(e.g.,https://bosh.io/d/github.com/cloudfoundry-incubator/bosh-azure-cpi-release?v=10 and 48725899f8b3f0f625bdb3bcff97bc0d6bf193e1)
+    * **REPLACE_WITH_BOSH_AZURE_CPI_RELEASE_URL** and **REPLACE_WITH_BOSH_AZURE_CPI_RELEASE_SHA1**(e.g., https://bosh.io/d/github.com/cloudfoundry-incubator/bosh-azure-cpi-release?v=10 and 48725899f8b3f0f625bdb3bcff97bc0d6bf193e1)
 	
     * **REPLACE_WITH_STEMCELL_URL** and **REPLACE_WITH_STEMCELL_SHA1**(e.g., https://bosh.io/d/stemcells/bosh-azure-hyperv-ubuntu-trusty-go_agent?v=3169 and ff13c47ac7ce121dee6153c1564bd8965edf9f59)
 	
