@@ -190,7 +190,7 @@ Now you have a service principal account, you need to grant this account access 
 
 ### 2.4.1 Assigning Roles
 
-There are couple of built-in roles in Azure, the roles can be assigned to users, groups, and services. We use **Virtual Machine Contributor** and **Network Contributor** roles for AzureCloud environment; we use **Contributor** role for AzureChinaCloud environment. Below steps use AzureCloud environment for example. While for AzureChinaCloud environment, the steps are very similar, just need to change the role name to be "Contributor".
+There are couple of built-in roles in Azure, the roles can be assigned to users, groups, and services. We need **Virtual Machine Contributor** and **Network Contributor** roles for later use.
 Click [**here**](https://azure.microsoft.com/en-us/documentation/articles/role-based-access-built-in-roles/) for the role info details.
 
 1. Assign Virtual Machine Contributor role
