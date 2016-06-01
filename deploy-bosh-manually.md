@@ -102,7 +102,7 @@ azure storage account create --location "East Asia" --type GRS --resource-group 
 azure storage account create --location "East Asia" --resource-group bosh-res-group xxxxx
 ```
 
-Sample output
+Sample Output:
 
 ```
 info:    Executing command storage account create
@@ -702,7 +702,7 @@ cloud_provider:
 	
     * **REPLACE_WITH_STEMCELL_URL** and **REPLACE_WITH_STEMCELL_SHA1**(e.g., https://bosh.io/d/stemcells/bosh-azure-hyperv-ubuntu-trusty-go_agent?v=3169 and ff13c47ac7ce121dee6153c1564bd8965edf9f59)
 	
-	>**NOTE**: For Azure CPI release url and sha1, you can go to the URL: http://bosh.io/releases/github.com/cloudfoundry-incubator/bosh-azure-cpi-release?all=1 to get the release versions and sha1.
+	>**NOTE**: For BOSH Azure CPI release url and sha1, you can go to the URL: http://bosh.io/releases/github.com/cloudfoundry-incubator/bosh-azure-cpi-release?all=1 to get the release versions and sha1.
 
   * Replace the following items with your pre-defined value just created above:
 
@@ -755,4 +755,4 @@ bosh-init deploy bosh.yml
 >**NOTE:**
   * Never use root to perform these steps.
   * More verbose logs are written to `~/run.log`.
-  * If you hit any issue, please see [**troubleshooting**](https://github.com/cloudfoundry-incubator/bosh-azure-cpi-release/blob/master/docs/additional-information/troubleshooting.md), [**known issues**](https://github.com/cloudfoundry-incubator/bosh-azure-cpi-release/blob/master/docs/additional-information/known-issues.md) and [**migration**](../../additional-information/migration.md). If it does not work, you can file an issue [**HERE**](https://github.com/cloudfoundry-incubator/bosh-azure-cpi-release/blob/master/docs/additional-information/migration.md).
+  * If you hit any issue, please see [**troubleshooting**](https://github.com/cloudfoundry-incubator/bosh-azure-cpi-release/blob/master/docs/additional-information/troubleshooting.md), [**known issues**](https://github.com/cloudfoundry-incubator/bosh-azure-cpi-release/blob/master/docs/additional-information/known-issues.md) and [**migration**](https://github.com/cloudfoundry-incubator/bosh-azure-cpi-release/blob/master/docs/additional-information/migration.md). If it does not work, you can file an issue [**HERE**](https://github.com/cloudfoundry-incubator/bosh-azure-cpi-release/issues).
